@@ -1,6 +1,6 @@
 package main
 
-import "p100"
+import "problems.uva"
 
 func main() {
     p100.Run()
