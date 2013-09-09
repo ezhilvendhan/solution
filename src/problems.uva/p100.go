@@ -53,7 +53,7 @@ func _100(i, j int) {
 	    obj.num = n
 		}
 	}
-	fmt.Println(i, " ", j, " ",obj.num)
+	fmt.Println(i, " ", j, " ",obj.cycle)
 }
 
 func _100Logic(n int, cnt *int) int {
