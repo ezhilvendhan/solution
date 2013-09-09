@@ -1,11 +1,11 @@
 package p100
-
+//UVa Problems in Golang [http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3]
 import (
   "fmt"
   "os"
-	"strconv"
-	"util"
-	"time"
+  "strconv"
+  "util"
+  "time"
 )
 
 func Run() {
