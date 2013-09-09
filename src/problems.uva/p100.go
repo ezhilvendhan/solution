@@ -5,9 +5,11 @@ import (
   "os"
 	"strconv"
 	"util"
+	"time"
 )
 
 func Run() {
+	start:=time.Now()
 	args := os.Args[1:]
 	for i, j, n:= 0, 1, len(args); i < n && j < n; {
 		num1, err := strconv.Atoi(args[i])
@@ -24,6 +26,8 @@ func Run() {
 			common.PrintErrorAndExit(err)
 		}
 	}
+	elapsed := time.Now()
+  fmt.Println("Elapsed: ", elapsed.Sub(start))
 }
 
 func printMaxCycle(num1, num2 int) {

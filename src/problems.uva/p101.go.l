@@ -1,6 +1,11 @@
 package p101
 
 import (
-	"fmt"
-	"os"
+	_ "fmt"
+	_ "os"
+	_ "util"
 )
+
+func Run() {
+	
+}
