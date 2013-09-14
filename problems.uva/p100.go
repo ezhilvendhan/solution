@@ -4,7 +4,7 @@ import (
   "fmt"
   "os"
   "strconv"
-  "util"
+  "github.com/ezhilvendhan/goutil/printutil"
   "time"
 )
 
@@ -20,10 +20,10 @@ func Run() {
 				i += 2
 				j += 2
 			} else {
-				common.PrintErrorAndExit(err)
+				printutil.PrintErrorAndExit(err)
 	    }
 		} else {
-			common.PrintErrorAndExit(err)
+			printutil.PrintErrorAndExit(err)
 		}
 	}
 	elapsed := time.Now()

@@ -1,9 +1,7 @@
 package main
 
-import "problems.uva"
+import "github.com/ezhilvendhan/solution/problems.uva"
 
 func main() {
-  p100.Run()	
+  p100.Run()
 }
-
-
